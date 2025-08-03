@@ -1,0 +1,24 @@
+.chat-ai .error-toast, .chat-ai .success-toast {
+  display: flex;
+  padding: 12px 15px;
+  max-width: 100%;
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 1;
+  transition: opacity 5s ease;
+}
+.chat-ai .error-toast {
+  background-color: #ffc3c3;
+  border-left: 3px solid #df4747;
+  color: #bb3c3c;
+}
+.chat-ai .success-toast {
+  background-color: #c3ffdc;
+  border-left: 3px solid #4bcc81;
+  color: #50ad77;
+}
